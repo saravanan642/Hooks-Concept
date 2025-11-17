@@ -5,7 +5,7 @@ export const HomeScreen = () => {
     const {sra , friendInfromation , numbers ,myinfo} = useContext(DContext)
   return (
     <div>
-        {`Hi my name is ${sra.name} , my age is ${sra.age}`}
+        {`Hi my name is ${myinfo.name} , my age is ${myinfo.age}`}
     </div>
   )
 }

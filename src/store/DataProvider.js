@@ -6,7 +6,7 @@ function DataProvider(props) {
 
     const sra = {
         name: "Abi",
-        age: 20
+        age: 29
     };
 
     const friendInfromation = [

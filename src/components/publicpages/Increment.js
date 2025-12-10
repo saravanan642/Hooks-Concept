@@ -17,7 +17,7 @@ function Increment() {
             <h2>Value: {add}</h2>
 
             <button onDoubleClick={() => setState("saravanan")}>Click mee</button>
-            <h2>{state}</h2>
+            <h2> Name:{state}</h2>
 
             <div className={`${color} p-4`}></div>
             <button onClick={() => setColor("bg-red-600")}>Color</button>

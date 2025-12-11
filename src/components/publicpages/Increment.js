@@ -6,8 +6,9 @@ function Increment() {
     const [add, setAdd] = useState(200);
     const [state, setState] = useState("Shankareshwari");
     const [color, setColor] = useState("bg-blue-500");
-    
-    
+    let [sara, setSara] = useState("bg-red-600");
+
+
     const [image, setImage] = useState(img1);
 
     return (
@@ -22,11 +23,22 @@ function Increment() {
             <div className={`${color} p-4`}></div>
             <button onClick={() => setColor("bg-red-600")}>Color</button>
 
-            
+
             <button onClick={() => setImage(img2)}>Change Image</button>
 
-            
+
             <img src={image} alt="Selected" width="300" />
+
+            <div className={`w-fit ml-[45%] p-[20px] ${sara} text-center`}>
+                <button
+                    onClick={() => setSara("bg-green-600")}
+                    className="text-white"
+                >
+                    call mee
+                </button>
+            </div>
+
+
         </div>
     );
 }

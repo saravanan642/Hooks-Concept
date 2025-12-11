@@ -9,8 +9,6 @@ function Increment() {
     const [state, setState] = useState("pavinkumar");
     const [color, setColor] = useState("bg-blue-500");
     let [sara, setSara] = useState("bg-red-600");
-
-
     const [image, setImage] = useState(img1);
 
     return (

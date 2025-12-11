@@ -4,6 +4,7 @@ import { App } from './App';
 import DataProvider from './store/DataProvider';
 import { BrowserRouter } from 'react-router-dom';
 import './Style.css/Tailwind.css';
+import "./Style.css/style.css"
 
 
 

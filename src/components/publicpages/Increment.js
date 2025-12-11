@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import img1 from "../assests/pexels-nishantaneja-2362699.jpg";
 import img2 from "../assests/pexels-philippedonn-1133957.jpg";
+import Home from '../../UseState/Home';
 
 function Increment() {
     const [add, setAdd] = useState(200);
@@ -13,9 +14,12 @@ function Increment() {
 
     return (
         <div>
+            <Home />
+            <div className='flex  gap-[30px]'>
+                <button onClick={() => setAdd(add - 20)} className=' border-black border-solid border-[2px]'> ADD button </button>
+                <h2>Value: {add}</h2>
+            </div>
 
-            <button onClick={() => setAdd(add - 20)}> ADD button </button>
-            <h2>Value: {add}</h2>
 
             <button onDoubleClick={() => setState("saravanan")}>Click mee</button>
             <h2> Name:{state}</h2>

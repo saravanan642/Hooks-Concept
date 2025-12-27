@@ -34,7 +34,8 @@ function DataProvider(props) {
 
     const myinfo = {
         name : "pavikumar",
-        age :  20   
+        age :  20  ,
+        sallary : 3000 
     }
     
     const data = {sra , friendInfromation , numbers , myinfo}

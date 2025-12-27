@@ -12,6 +12,7 @@ export const AboutScreen = () => {
 
       <div>
         <h2>{numbers}</h2>
+        <p>{myinfo.sallary}</p>
       </div>
     </div>
   )

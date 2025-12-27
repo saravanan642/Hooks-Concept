@@ -8,6 +8,11 @@ export const AboutScreen = () => {
       <p>{sra.name}</p>
       <p>{sra.age}</p>
       <h1>{myinfo.name}</h1>
+      
+
+      <div>
+        <h2>{numbers}</h2>
+      </div>
     </div>
   )
 }
